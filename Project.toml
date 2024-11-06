@@ -1,0 +1,12 @@
+name = "KCopWin"
+uuid = "38627df3-0f8a-4285-8d1b-d73d88646ea3"
+authors = ["SlemimanPzz <emilianoa@ciencias.unam.mx>"]
+version = "0.1.0"
+
+[deps]
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+GraphIO = "aa1b3936-2fda-51b9-ab35-c553d3a640a2"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+OhMyThreads = "67456a42-1dca-4109-a031-0a68de7e3ad5"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
