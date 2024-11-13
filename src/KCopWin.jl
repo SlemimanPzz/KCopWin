@@ -8,6 +8,7 @@ using Combinatorics
 using OhMyThreads
 
 export k_cop_win
+export fichas
 
 """
 
@@ -24,7 +25,7 @@ function get_index(s::NTuple{K,Int}, n::Int, k::Int) where {K}
     return index
 end
 
-function F(G, k)
+function fichas(G, k)
     # Get combinations of vertices from 1:nv(G)
     vertices = collect(combinations(1:nv(G), k))
 
